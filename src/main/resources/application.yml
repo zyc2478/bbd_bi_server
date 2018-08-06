@@ -1,0 +1,24 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /wh
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://59.110.169.156:3306/wh?useSSL=false&amp;characterEncoding=utf-8&amp;jdbcCompliantTruncation=false&amp;zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 12345
+  redis:
+    database: 0
+    host: 59.110.169.156
+    port: 6379
+    password: null
+mybatis:
+  mapper-locations: classpath:com/wanghuan/dao/mapper/*.xml
+  type-aliases-package: com.wanghuan.model
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    com.wanghuan: DEBUG

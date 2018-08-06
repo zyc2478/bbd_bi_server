@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/wanghuan/controller/sys/VwBidListController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/wanghuan/dao/VwBidListDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/wanghuan/model/sys/VwBidListEntity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/wanghuan/service/impl/sys/VwBidListServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/wanghuan/service/sys/VwBidListService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com/wanghuan/dao/mapper/VwBidListMapper.xml" charset="GBK" />
+  </component>
+</project>
