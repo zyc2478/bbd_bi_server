@@ -30,9 +30,10 @@ public class VwBidListController {
 
     @GetMapping("/getLatestBidSummary")
 /*    public PageResult getBidSummary(@PathVariable(value = "diffDays") int diffDays){*/
-    public PageResult getBidSummary(@RequestParam int diffDays){
+    public PageResult getBidSummary(/*@RequestParam int diffDays*/){
 
         PageResult pr = new PageResult();
+        int diffDays = 30;
         pr.setData(vwBidListService.getBidSummaryByDiff(diffDays));
         return pr;
     }

@@ -1,17 +1,17 @@
 package com.wanghuan.dao;
 
-import com.wanghuan.model.sys.VwBidListEntity;
-import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
+        import com.wanghuan.model.sys.VwBidListEntity;
+        import org.apache.ibatis.annotations.Mapper;
+        import org.springframework.stereotype.Repository;
 
-import java.util.List;
+        import java.util.List;
 
 /**
  * VwBidListDAO继承基类
  */
 @Repository
 @Mapper
-public interface VwBidListDao {
+public interface VwBidListDao1 {
 
     VwBidListEntity selectByPrimaryKey(long id);
 
