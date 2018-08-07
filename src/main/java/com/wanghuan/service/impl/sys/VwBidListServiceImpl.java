@@ -1,6 +1,6 @@
 package com.wanghuan.service.impl.sys;
 
-import com.wanghuan.dao.VwBidListDao1;
+import com.wanghuan.dao.VwBidListDao;
 import com.wanghuan.model.sys.VwBidListEntity;
 import com.wanghuan.service.sys.VwBidListService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.util.List;
 public class VwBidListServiceImpl implements VwBidListService {
 
     @Autowired
-    private VwBidListDao1 vwBidListDao;
+    private VwBidListDao vwBidListDao;
 
     @Override
     public List<VwBidListEntity> getBidByDate(String bidDate) {

@@ -11,7 +11,7 @@ package com.wanghuan.dao;
  */
 @Repository
 @Mapper
-public interface VwBidListDao1 {
+public interface VwBidListDao {
 
     VwBidListEntity selectByPrimaryKey(long id);
 
