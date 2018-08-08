@@ -21,7 +21,7 @@ public class VwBidListServiceImpl implements VwBidListService {
     }
 
     @Override
-    public List<VwBidListEntity> getBidSummaryByDiff(Integer diffDays) {
+    public List<VwBidListEntity> getBidSummaryByDiff(int diffDays) {
         long current_time = new Date().getTime();
         System.out.println(current_time);
         long diffDaysl = new Long(diffDays);
