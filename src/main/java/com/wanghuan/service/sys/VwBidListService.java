@@ -8,5 +8,5 @@ public interface VwBidListService {
 
     List<VwBidListEntity> getBidByDate(String bidDate);
 
-    List<VwBidListEntity> getBidSummaryByDiff(int diffDays);
+    List<VwBidListEntity> getBidSummaryByDiff(Integer diffDays);
 }

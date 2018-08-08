@@ -28,12 +28,21 @@ public class VwBidListController {
         return pr;
     }
 
-    @GetMapping("/getLatestBidSummary")
-/*    public PageResult getBidSummary(@PathVariable(value = "diffDays") int diffDays){*/
-    public PageResult getBidSummary(/*@RequestParam int diffDays*/){
+/*    @GetMapping("/getLatestBidSummary")
+*//*    public PageResult getBidSummary(@PathVariable(value = "diffDays") int diffDays){*//*
+    public PageResult getBidSummary(*//*@RequestParam int diffDays*//*){
 
         PageResult pr = new PageResult();
         int diffDays = 30;
+        pr.setData(vwBidListService.getBidSummaryByDiff(diffDays));
+        return pr;
+    }*/
+
+    @GetMapping("/getLatestBidSummary/{diffDays}")
+    /*    public PageResult getBidSummary(@PathVariable(value = "diffDays") int diffDays){*/
+    public PageResult getBidSummary(@PathVariable("diffDays") Integer diffDays){
+
+        PageResult pr = new PageResult();
         pr.setData(vwBidListService.getBidSummaryByDiff(diffDays));
         return pr;
     }
