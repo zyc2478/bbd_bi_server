@@ -7,7 +7,7 @@ http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 <groupId>com.wanghuan</groupId>
 <artifactId>wh-spring-boot</artifactId>
 <version>1.0.2-SNAPSHOT</version>
-<packaging>war</packaging>
+<packaging>jar</packaging>
 
 <name>wh-spring-boot</name>
 <description>Demo project for Spring Boot</description>
